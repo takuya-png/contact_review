@@ -1,0 +1,41 @@
+.contact tr{
+  height: 7rem;
+}
+
+.contact th{
+  width: 150px;
+}
+
+.contact td{
+  padding-left: 10px;
+}
+
+.contact{
+  border-collapse: collapse;
+}
+
+.contact tr:last-child th {
+  border-color: #B1B1B1;
+}
+
+.btn-area{
+  text-align: center;
+}
+
+.btn-area-submit:hover{
+  opacity: 0.5;
+}
+
+.btn-area-submit{
+  background: #008B8b;
+  border: none;
+  color: white;
+  font-size:3rem;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 480px;
+}
